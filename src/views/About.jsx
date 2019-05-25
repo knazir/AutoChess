@@ -10,7 +10,7 @@ export default class About extends Component {
         <img className="autoChessLogo" src={utils.imgUrl("auto_chess.jpg")} alt="AutoChess Logo"/>
         <p>
           Hi, <a href={github.profile} target="_blank" rel="noopener noreferrer">I'm</a> really bad at AutoChess,
-          but I think it's really fun. I started working on some tools to help me make better decisions while
+          but I think it's pretty fun. I started working on some tools to help me make better decisions while
           playing. I hope that you may find them useful as well.
         </p>
         <p>
