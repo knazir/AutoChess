@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AutoChess/static/css/main.7ffb0208.chunk.css",
+    "main.js": "/AutoChess/static/js/main.1e3964be.chunk.js",
+    "main.js.map": "/AutoChess/static/js/main.1e3964be.chunk.js.map",
+    "runtime~main.js": "/AutoChess/static/js/runtime~main.1c8164fb.js",
+    "runtime~main.js.map": "/AutoChess/static/js/runtime~main.1c8164fb.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/AutoChess/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/AutoChess/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/AutoChess/index.html",
+    "precache-manifest.8a69f031ea4f1116ae3f206a5a93ee4f.js": "/AutoChess/precache-manifest.8a69f031ea4f1116ae3f206a5a93ee4f.js",
+    "service-worker.js": "/AutoChess/service-worker.js",
+    "static/css/main.7ffb0208.chunk.css.map": "/AutoChess/static/css/main.7ffb0208.chunk.css.map"
+  }
+}
