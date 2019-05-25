@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AutoChess/static/css/main.1c7deac2.chunk.css",
-    "main.js": "/AutoChess/static/js/main.ba76555f.chunk.js",
-    "main.js.map": "/AutoChess/static/js/main.ba76555f.chunk.js.map",
+    "main.js": "/AutoChess/static/js/main.e07eb100.chunk.js",
+    "main.js.map": "/AutoChess/static/js/main.e07eb100.chunk.js.map",
     "runtime~main.js": "/AutoChess/static/js/runtime~main.1c8164fb.js",
     "runtime~main.js.map": "/AutoChess/static/js/runtime~main.1c8164fb.js.map",
-    "static/js/2.51f3fa8d.chunk.js": "/AutoChess/static/js/2.51f3fa8d.chunk.js",
-    "static/js/2.51f3fa8d.chunk.js.map": "/AutoChess/static/js/2.51f3fa8d.chunk.js.map",
+    "static/js/2.c361d1a9.chunk.js": "/AutoChess/static/js/2.c361d1a9.chunk.js",
+    "static/js/2.c361d1a9.chunk.js.map": "/AutoChess/static/js/2.c361d1a9.chunk.js.map",
     "index.html": "/AutoChess/index.html",
-    "precache-manifest.de9a50fc01a39dd4933df6f1dc4bf009.js": "/AutoChess/precache-manifest.de9a50fc01a39dd4933df6f1dc4bf009.js",
+    "precache-manifest.8c9cc90d1dcd891e713a2e8571c8276e.js": "/AutoChess/precache-manifest.8c9cc90d1dcd891e713a2e8571c8276e.js",
     "service-worker.js": "/AutoChess/service-worker.js",
     "static/css/main.1c7deac2.chunk.css.map": "/AutoChess/static/css/main.1c7deac2.chunk.css.map"
   }
