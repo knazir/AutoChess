@@ -1,9 +1,5 @@
-import github from "../data/github";
-
-const prefix = process.env.NODE_ENV === "development" ? "/" : github.prefix;
-
 function route(path) {
-  return `${prefix}${path}`;
+  return `${process.env.PUBLIC_URL || ""}/${path}`;
 }
 
 const routes = {
