@@ -1,0 +1,26 @@
+@import "./_theme.scss";
+
+.about {
+  align-items: center;
+  width: 80%;
+
+  .autoChessLogo {
+    width: 600px;
+  }
+
+  p {
+    width: 90%;
+    font-weight: 500;
+    font-size: 1.25em;
+
+    a {
+      color: $themeLink;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
