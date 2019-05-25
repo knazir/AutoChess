@@ -7,9 +7,17 @@ export default class Nav extends Component {
   render() {
     return (
       <nav>
-        <Link to={routes.about}>About</Link>
-        <Link to={routes.rerolls}>Reroll Calculator</Link>
+        {this._makeLink("About", routes.about)}
+        {this._makeLink("Reroll Calculator", routes.rerolls)}
       </nav>
     );
+  }
+
+  _makeLink(title, route) {
+    return <Link to={route} className={this._getClassName(route)} onClick={() => this.forceUpdate()}>{title}</Link>;
+  }
+
+  _getClassName(route) {
+    return window.location.pathname.endsWith(route) ? "selected" : null;
   }
 }
