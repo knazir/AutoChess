@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0242f38c5dda49778b66737b274312f9",
+    "revision": "442666cd15b71bc01af6aa5901a2e049",
     "url": "/AutoChess/index.html"
   },
   {
-    "revision": "90aa056ef76e98a3237f",
+    "revision": "969155d58308c42ee549",
     "url": "/AutoChess/static/css/main.1c7deac2.chunk.css"
   },
   {
-    "revision": "510673e82b048b831674",
-    "url": "/AutoChess/static/js/2.c361d1a9.chunk.js"
+    "revision": "364406880d01f345c5b7",
+    "url": "/AutoChess/static/js/2.24bb7502.chunk.js"
   },
   {
-    "revision": "90aa056ef76e98a3237f",
-    "url": "/AutoChess/static/js/main.0d4cbeee.chunk.js"
+    "revision": "969155d58308c42ee549",
+    "url": "/AutoChess/static/js/main.81654256.chunk.js"
   },
   {
     "revision": "9ac3bb163633a2805b66",
