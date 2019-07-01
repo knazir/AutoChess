@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AutoChess/static/css/main.1c7deac2.chunk.css",
-    "main.js": "/AutoChess/static/js/main.81654256.chunk.js",
-    "main.js.map": "/AutoChess/static/js/main.81654256.chunk.js.map",
-    "runtime~main.js": "/AutoChess/static/js/runtime~main.1c8164fb.js",
-    "runtime~main.js.map": "/AutoChess/static/js/runtime~main.1c8164fb.js.map",
-    "static/js/2.24bb7502.chunk.js": "/AutoChess/static/js/2.24bb7502.chunk.js",
-    "static/js/2.24bb7502.chunk.js.map": "/AutoChess/static/js/2.24bb7502.chunk.js.map",
-    "index.html": "/AutoChess/index.html",
-    "precache-manifest.78c967ec5096024fd91d0849acb53dec.js": "/AutoChess/precache-manifest.78c967ec5096024fd91d0849acb53dec.js",
-    "service-worker.js": "/AutoChess/service-worker.js",
-    "static/css/main.1c7deac2.chunk.css.map": "/AutoChess/static/css/main.1c7deac2.chunk.css.map"
+    "main.css": "/tft/static/css/main.fe6b9e83.chunk.css",
+    "main.js": "/tft/static/js/main.e43c853d.chunk.js",
+    "main.js.map": "/tft/static/js/main.e43c853d.chunk.js.map",
+    "runtime~main.js": "/tft/static/js/runtime~main.b3ebe83d.js",
+    "runtime~main.js.map": "/tft/static/js/runtime~main.b3ebe83d.js.map",
+    "static/js/2.13940851.chunk.js": "/tft/static/js/2.13940851.chunk.js",
+    "static/js/2.13940851.chunk.js.map": "/tft/static/js/2.13940851.chunk.js.map",
+    "index.html": "/tft/index.html",
+    "precache-manifest.dd798c7464b7b6fa9c9bd39146ecfd99.js": "/tft/precache-manifest.dd798c7464b7b6fa9c9bd39146ecfd99.js",
+    "service-worker.js": "/tft/service-worker.js",
+    "static/css/main.fe6b9e83.chunk.css.map": "/tft/static/css/main.fe6b9e83.chunk.css.map"
   }
 }
