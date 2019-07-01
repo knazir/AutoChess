@@ -18,8 +18,8 @@ export default class About extends Component {
           on <a href={github.repo} target="_blank" rel="noopener noreferrer">GitHub</a>.
         </p>
         <p>
-          I did not make AutoChess. All images and information on this site are copyright their respective
-          owners.
+          I did not make Teamfight Tactics. All images and information on this site are copyright Riot Games and
+          its respective owners.
         </p>
       </div>
     );
