@@ -2,11 +2,13 @@
 function makeItem(name, effects, image, components = null) {
   const item = { name, effects, image };
   if (components) {
-    // don't repeat the same effects
-    components.forEach(c => {
-      const uniqueEffects = c.effects.filter(e => item.effects.indexOf(e) === -1);
-      item.effects = [...uniqueEffects, ...item.effects];
-    });
+    // don't concatenate effects for spatula items
+    if (!components.find(c => c.name === "Spatula")) {
+      components.forEach(c => {
+        const uniqueEffects = c.effects.filter(e => item.effects.indexOf(e) === -1);
+        item.effects = [...uniqueEffects, ...item.effects];
+      });
+    }
     item.components = components;
   }
   return item;
