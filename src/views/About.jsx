@@ -9,8 +9,8 @@ export default class About extends Component {
     return (
       <div className="about view">
         <p>
-          Hi, <a href={github.profile} target="_blank" rel="noopener noreferrer">I'm</a> really bad at Team Fight,
-          Tactics but I think it's pretty fun. I started working on some tools to help me make better decisions while
+          Hi, <a href={github.profile} target="_blank" rel="noopener noreferrer">I'm</a> really bad at Team Fight
+          Tactics, but I think it's pretty fun. I started working on some tools to help me make better decisions while
           playing. I hope that you may find them useful as well.
         </p>
         <p>
