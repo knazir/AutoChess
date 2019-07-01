@@ -7,8 +7,8 @@ export default class Nav extends Component {
   render() {
     return (
       <nav>
-        {this._makeLink("About", routes.about)}
         {this._makeLink("Items", routes.items)}
+        {this._makeLink("About", routes.about)}
       </nav>
     );
   }

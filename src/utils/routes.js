@@ -3,8 +3,8 @@ function route(path) {
 }
 
 const routes = {
-  about: route(""),
-  items: route("items")
+  items: route(""),
+  about: route("about")
 };
 
 export default routes;

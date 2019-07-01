@@ -16,7 +16,7 @@ export default class App extends Component {
       <Router>
         <Nav/>
         <Route path={routes.about} exact component={About}/>
-        <Route path={routes.items} component={Items}/>
+        <Route path={routes.items} exact component={Items}/>
       </Router>
     );
   }
