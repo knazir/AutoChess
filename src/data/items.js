@@ -3,7 +3,10 @@ function makeItem(name, effects, image, components = null) {
   const item = { name, effects, image };
   if (components) {
     // don't repeat the same effects
-    components.forEach(c => item.effects = item.effects.concat(c.effects.filter(e => item.effects.indexOf(e) !== -1)));
+    components.forEach(c => {
+      const uniqueEffects = c.effects.filter(e => item.effects.indexOf(e) === -1);
+      item.effects = [...uniqueEffects, ...item.effects];
+    });
     item.components = components;
   }
   return item;
