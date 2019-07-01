@@ -4,7 +4,7 @@ function route(path) {
 
 const routes = {
   about: route(""),
-  rerolls: route("rerolls")
+  items: route("items")
 };
 
 export default routes;

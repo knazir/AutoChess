@@ -1,0 +1,16 @@
+@import "./_theme.scss";
+
+.itemRecipe {
+  display: flex;
+  align-items: center;
+
+  &>*:not(:last-child) {
+    margin-right: 0.5em;
+  }
+
+  .plus, .equals {
+    font-size: 2em;
+    font-weight: bold;
+    user-select: none;
+  }
+}

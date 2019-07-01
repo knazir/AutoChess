@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import utils from "../utils/helpers";
+
 import github from "../data/github.json";
+
 import "../styles/about.scss";
 
 export default class About extends Component {
   render() {
     return (
       <div className="about view">
-        <img className="autoChessLogo" src={utils.imgUrl("auto_chess.jpg")} alt="AutoChess Logo"/>
         <p>
-          Hi, <a href={github.profile} target="_blank" rel="noopener noreferrer">I'm</a> really bad at AutoChess,
-          but I think it's pretty fun. I started working on some tools to help me make better decisions while
+          Hi, <a href={github.profile} target="_blank" rel="noopener noreferrer">I'm</a> really bad at Team Fight,
+          Tactics but I think it's pretty fun. I started working on some tools to help me make better decisions while
           playing. I hope that you may find them useful as well.
         </p>
         <p>

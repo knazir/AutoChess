@@ -1,1 +1,1 @@
-# AutoChess Suite
+# Team Fight Tactics Suite

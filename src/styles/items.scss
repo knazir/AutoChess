@@ -1,0 +1,15 @@
+@import "./_theme.scss";
+
+.items {
+  width: 100%;
+
+  .itemSelect {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+
+    &>* {
+      margin: 0.1em 0.25em;
+    }
+  }
+}

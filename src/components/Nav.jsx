@@ -8,7 +8,7 @@ export default class Nav extends Component {
     return (
       <nav>
         {this._makeLink("About", routes.about)}
-        {this._makeLink("Reroll Calculator", routes.rerolls)}
+        {this._makeLink("Items", routes.items)}
       </nav>
     );
   }

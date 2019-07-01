@@ -1,0 +1,48 @@
+@import "./_theme.scss";
+
+$imageDimension: 48px;
+
+.imageIcon {
+  position: relative;
+
+  &.clickable:hover {
+    cursor: pointer;
+  }
+
+  img {
+    width: $imageDimension;
+    height: $imageDimension;
+    border: 2px solid transparent;
+
+    &.selected {
+      border-color: white;
+    }
+  }
+
+  .tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: $imageDimension;
+    padding: 0.5em;
+    background-color: $themeTooltipBg;
+    min-width: 20em;
+    min-height: 1.5 * $imageDimension;
+
+    >div {
+      margin-left: 0.5em;
+      font-style: italic;
+
+      &:not(:last-child) {
+        margin-bottom: 0.5em;
+      }
+    }
+
+    h3 {
+      margin: 0 0 0.5em 0;
+    }
+  }
+}
