@@ -42,11 +42,10 @@ export default class ImageIcon extends Component {
   }
 
   _onClick() {
+    if (!this.props.onClick) return;
     const { item } = this.props;
     const willSelect = !this.state.selected;
-    this.setState({ selected: !this.state.selected }, () => {
-      if (this.props.onClick) this.props.onClick(item, willSelect);
-    });
+    this.setState({ selected: !this.state.selected }, () =>  this.props.onClick(item, willSelect));
   }
 
   _onMouseEnter() {
