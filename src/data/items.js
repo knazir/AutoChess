@@ -4,10 +4,7 @@ function makeItem(name, effects, image, components = null) {
   if (components) {
     // don't concatenate effects for spatula items
     if (!components.find(c => c.name === "Spatula")) {
-      components.forEach(c => {
-        const uniqueEffects = c.effects.filter(e => item.effects.indexOf(e) === -1);
-        item.effects = [...uniqueEffects, ...item.effects];
-      });
+      components.forEach(c => item.effects = [...c.effects, ...item.effects]);
     }
     item.components = components;
   }
@@ -31,11 +28,18 @@ const ga = makeItem(
   "ga.png",
   [bfSword, chainVest]
 );
+const zekes = makeItem(
+  "Zeke's Herald",
+  ["Adjacent allies gain 10% attack speed"],
+  "zekes.png",
+  [bfSword, giantsBelt]
+);
 const gunblade = makeItem(
   "Hextech Gunblade",
   ["Heal for 25% of all damage dealt"],
   "gunblade.png",
-  [bfSword, needleslyLargeRod]);
+  [bfSword, needleslyLargeRod]
+);
 const spearOfShoujin = makeItem(
   "Spear of Shoujin",
   ["After casting an ability, wearer gains 15% of its max mana per attack"],
@@ -237,7 +241,7 @@ const forceOfNature = makeItem(
 
 const items = [
   bfSword, chainVest, giantsBelt, needleslyLargeRod, negatronCloak, recurveBow, spatula, tear,
-  ga, gunblade, spearOfShoujin, swordOfTheDivine, bloodthirster, youmuus, infinityEdge,
+  ga, zekes, gunblade, spearOfShoujin, swordOfTheDivine, bloodthirster, youmuus, infinityEdge,
   frozenHeart, knightsVow, locket, phantomDancer, redBuff, swordBreaker, thornmail,
   frozenMallet, morellonomicon, redemption, titanicHydra, warmogs, zephyr,
   yuumi, deathcap, ludens, ionicSpark, guinsoos,
