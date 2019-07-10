@@ -78,9 +78,13 @@ export default class Items extends Component {
   }
 
   _onItemClick(item, selected) {
-    const { selectedItems } = this.state;
-    if (selected) selectedItems.add(item);
-    else selectedItems.delete(item);
+    const { selectedItems, doubledItems } = this.state;
+    if (selected) {
+      selectedItems.add(item);
+    } else {
+      selectedItems.delete(item);
+      if (doubledItems.has(item)) doubledItems.delete(item);
+    }
     this.forceUpdate();
   }
 
