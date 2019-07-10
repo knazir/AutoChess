@@ -14,7 +14,7 @@ export default class ItemRecipe extends Component {
     const recipeComponents = [];
     for (let i = 0; i < item.components.length; i++) {
       const component = item.components[i];
-      recipeComponents.push(<ImageIcon key={`${component.name}-${i}`} item={component}/>);
+      recipeComponents.push(<ImageIcon key={`${component.name}-${i}`} item={component} selected={false}/>);
       if (i < item.components.length - 1) recipeComponents.push(<div key={i} className="plus">+</div>)
     }
 
@@ -22,7 +22,7 @@ export default class ItemRecipe extends Component {
       <div className="itemRecipe">
         {recipeComponents}
         <div className="equals">=</div>
-        <ImageIcon item={item}/>
+        <ImageIcon item={item} selected={false}/>
       </div>
     );
   }
