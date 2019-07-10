@@ -1,9 +1,10 @@
 @import "./_theme.scss";
 
+
 nav {
   display: flex;
   width: 100%;
-  background-color: #3e434b;
+  background-color: $themeNavBg;
 
   a {
     padding: 0.5em 1em;
@@ -16,6 +17,18 @@ nav {
     &:hover, &.selected {
       background-color: $themeFont;
       color: $themeBg;
+    }
+
+    &.todo:hover {
+      background-color: $themeNavBg;
+      color: $themeFont;
+      cursor: not-allowed;
+    }
+  }
+
+  .todo {
+    &:hover {
+
     }
   }
 }

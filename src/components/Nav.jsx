@@ -8,7 +8,7 @@ export default class Nav extends Component {
     return (
       <nav>
         {this._makeLink("Items", routes.items)}
-        {this._makeLink("About", routes.about)}
+        <Link to="" className={"todo"}>More to come!</Link>
       </nav>
     );
   }
