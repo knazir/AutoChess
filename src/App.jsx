@@ -5,7 +5,6 @@ import Nav from "./components/Nav";
 import routes from "./utils/routes";
 
 /* Views */
-import About from "./views/About";
 import Items from "./views/Items";
 
 import "./styles/main.scss";
@@ -15,7 +14,6 @@ export default class App extends Component {
     return (
       <Router>
         <Nav/>
-        <Route path={routes.about} exact component={About}/>
         <Route path={routes.items} exact component={Items}/>
       </Router>
     );
