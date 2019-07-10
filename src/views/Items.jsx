@@ -63,7 +63,6 @@ export default class Items extends Component {
           if (selectedIndex !== -1) componentsRemaining.splice(selectedIndex, 1);
         }
       }
-      console.log(componentsRemaining);
       if (componentsRemaining.length === 0) possibleItems.push(item);
     }
     const possibleRecipes = possibleItems.map(i => {
