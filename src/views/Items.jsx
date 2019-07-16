@@ -53,6 +53,16 @@ export default class Items extends Component {
     const possibleItems = [];
     for (let item of advancedItems) {
       const componentsRemaining = [...item.components];
+
+      // if only one item selected, show all items that it can make (not for doubles)
+      if (selectedItems.size === 1) {
+        const selectedItem = selectedItems.values().next().value;
+        if (!doubledItems.has(selectedItem)) {
+          if (componentsRemaining.indexOf(selectedItem) !== -1) possibleItems.push(item);
+          continue;
+        }
+      }
+
       for (let selectedItem of selectedItems) {
         let selectedIndex = componentsRemaining.indexOf(selectedItem);
         if (selectedIndex !== -1) componentsRemaining.splice(selectedIndex, 1);
